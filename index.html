@@ -20,7 +20,8 @@
 			integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
 			crossorigin="anonymous"
 		></script>
-		<link rel="stylesheet" href="main.css" />
+		<link rel="stylesheet" href="./main.css" />
+		<script src="login.js"></script>
 		<script>
 			$(function () {
 				$("#header").load("header.html", function () {
@@ -39,7 +40,9 @@
 				<p>Login to play</p>
 				<form method="get" action="play.html">
 					<input type="text" id="name" placeholder="Your name here" />
-					<button type="submit" class="btn btn-primary">Login</button>
+					<button type="submit" class="btn btn-primary" onclick="login()">
+						Login
+					</button>
 				</form>
 			</div>
 		</main>
