@@ -1,2 +1,5 @@
 
 deployFilesAuto(simon).sh
+./.vscode
+*DS_Store
+deployFilesAuto(simon).sh
