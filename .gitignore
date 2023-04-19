@@ -1,5 +1,9 @@
 
 deployFilesAuto(simon).sh
+deployReact.sh
+build
+node_modules
 ./.vscode
 *DS_Store
 deployFilesAuto(simon).sh
+deployService.sh
